@@ -1,0 +1,20 @@
+def print_star_pyramid(rows):
+    """Print a pyramid of stars."""
+    for i in range(1, rows + 1):
+        spaces = " " * (rows - i)
+        stars = "* " * i
+        print(spaces + stars)
+
+def main():
+    """Main function to take user input and print the star pyramid."""
+    try:
+        rows = int(input("Enter the number of rows for the star pyramid: "))
+        if rows <= 0:
+            print("Please enter a positive integer.")
+        else:
+            print_star_pyramid(rows)
+    except ValueError:
+        print("Invalid input! Please enter an integer.")
+
+if __name__ == "__main__":
+    main()
