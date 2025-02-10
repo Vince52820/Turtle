@@ -1,0 +1,11 @@
+import turtle
+
+t = turtle.Turtle()
+
+turtle.Screen().bgcolor
+t.color('blue')
+t.width(12)
+t.circle(50)
+
+# My code can print circle.
+C
