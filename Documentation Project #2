@@ -1,0 +1,9 @@
+Project Title
+Star Pyramid Project
+
+What is the purpose of your project? Explain your project.
+The purpose of my project is to create a pyramid of stars, and to play with it and type as many columns of stars.Is a pattern of asteriks arranged in pyramid shape.
+The outer loop controls the number of rows, while the inner loops manage spacing and printing the stars.
+
+How to run your project?
+Press run phyton file and type the number you wish then press enter.
